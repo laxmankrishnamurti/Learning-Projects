@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CheatSheet for Coders</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
+  <link rel="icon" type="image/x-icon" href="./images/html.png">
+  <!-- Okadia -->
+  <link rel="stylesheet" href="../Prism Files/Okadia/prism.css">
+  <script src="../Prism Files/Okadia/prism.js" defer></script>
+  <!-- Tomorrow Night -->
+  <!-- <link rel="stylesheet" href="../Prism Files/Tomorrow Night/prism.css">
+  <script src="../Prism Files/Tomorrow Night/prism.js" defer></script> -->
+</head>
+
+<body>
+  <div id="page-container">
+    <section id="navigation-bar">
+      <header>
+        <nav class="hero-section">
+          <div class="navbar-logo">
+            <img src="images/html.png" alt="logo">
+          </div>
+          <div class="heading">
+            Frequently used HTML Tags CheatSheet
+          </div>
+        </nav>
+      </header>
+
+      <main id="main-section">
+        <section id="content-container">
+          <p class="description">Most of the HTML Tag has an Attribute property. The Attribute gives an extra information about the Tag.</p>
+          <ol>
+
+            <li>BoilerPlate Code : The Basic code of HTML<pre class="language-html"><code>&lt!DOCTYPE html&gt
+&lthtml lang="en"&gt
+&lthead&gt
+  &ltmeta charset="UTF-8"&gt
+  &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+  &lttitle&gtDocument&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+      //Start writing code from here
+&lt/body&gt
+&lt/html&gt</code></pre></li>
+
+              <li id="block-tags">Block Tags List
+
+                <ul>
+                    <li class="tag-description">A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.</li>
+                    <li class="tag-description">A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</li>
+                </ul>
+
+                <pre class="language-html"><code>&lt;address&gt;Used to point Address&lt;/address&gt;
+&lt;div&gt;It is used like a Container&lt;/div&gt;
+&lt;article&gt;Used to write articles on a specific topic&lt;/article&gt;
+&lt;aside&gt;Mostly used for Advertisement&lt;/aside&gt;
+&lt;blockquote&gt;The tag specifies a section that is quoted from another source.&lt;/blockquote&gt;
+&lt;canvas&gt;used to draw graphics on a web page using JavaScript.&lt;/canvas&gt;
+&lt;dl&gt;Description List&lt;/dl&gt;
+&lt;dt&gt;Description Table&lt;/dt&gt;
+&lt;dd&gt;Description Data&lt;/dd&gt;
+&lt;fieldset&gt;used to group related elements in a form.&lt;/fieldset&gt;
+&lt;legend&gt;Used to Describe fieldset&lt;/legend&gt;
+&lt;figure&gt;Used to group images&lt;/figure&gt;
+&lt;figcaption&gt;Used to Describe figured images&lt;/figcaption&gt;
+&lt;footer&gt;Used to refer important links or used for website footer&lt;/footer&gt;
+&lt;h1&gt;Used for Heading&lt;/h6&gt;
+&lt;header&gt;Used for Navigate the website from one webPage to another webPage&lt;/header&gt;
+&lt;p&gt;&lt;hr&gt; = Used for draw a Horizontal Line&lt;/p&gt;
+&lt;li&gt;Used for create multiple List&lt;/li&gt;
+&lt;main&gt;All content of a website is written in Tag&lt;/main&gt;
+&lt;nav&gt;Used for navigation Buttons&lt;/nav&gt;
+&lt;ol&gt;Used for create an ordered List&lt;/ol&gt;
+&lt;ul&gt;Used to create Unordered List&lt;/ul&gt;
+&lt;section&gt;used to divide a website into multiple Section&lt;/section&gt;
+&lt;form action="#attribute"&gt;Used to create a Survey or Collect Data from the user&lt;/form&gt;
+&lt;table&gt;Used to create Table&lt;/table&gt;
+&lt;video src="#attribute"&gt;Used to show a video on the website&lt;/video&gt;
+&lt;audio src="#attribute"&gt;Used to play a music on the website&lt;/audio&gt;
+&lt;iframe src="#attribute" frameborder="0"&gt;An inline frame is used to embed another document within the current HTML document.&lt;/iframe&gt;</code></pre>
+              </li>
+              
+              <li id="inline-tags">Inline Tags List
+
+                <ul>
+                  <li class="tag-description">An inline element does not start on a new line.</li>
+                  <li class="tag-description">An inline element does not start on a new line.</li>
+                </ul>
+
+                <pre class="language-html"><code>&lt;a href="#attribute"&gt;Anchor Tag :- Used to refer one webPage to another webPage&lt;/a&gt;
+&lt;p&gt;&lt;br&gt; :- Used to add a next Line&lt;/p&gt;
+&lt;button&gt;Used to Create Buttons for userAction&lt;/button&gt;
+&lt;code&gt;Used to define a piece of computer code. &lt;/code&gt;
+&lt;i&gt;Used to do Italic Text&lt;/i&gt;
+&lt;img src="#image-source-link" alt="alternateName while image is unable to load due to low internet"&gt;
+&lt;input type="text" placeholder="used for user Input"&gt;
+&lt;label for="#attribute"&gt;Used for labeling the option&lt;/label&gt;
+&lt;map name="#attribute"&gt;The &lt;map&gt; tag is used to define an image map. An image map is an image with clickable areas.&lt;/map&gt;
+&lt;select name="#attribute" id="#select"&gt;Used for selection for the user&lt;/select&gt;
+&lt;option&gt;Used to create select items inside select tag&lt;/option&gt;
+&lt;span&gt;It looks like a &lt;div&gt;tag&lt;/div&gt;but it only takes spaces that is required for the text.&lt;/span&gt;
+&lt;strong&gt;Define important text in a document&lt;/strong&gt;
+&lt;textarea name="#attribute" id="#text-area" cols="30" rows="10"&gt;Used for user Message&lt;/textarea&gt;
+&lt;time datetime="2008-01-01 20:00"&gt;New Year :- he &lt;time&gt; tag defines a specific time (or datetime). The datetime attribute of this element is used translate the time into a machine-readable format so that browsers can offer to add date reminders through the user's calendar, and search engines can produce smarter search results.
+&lt;/time&gt;</code></pre>
+              </li>
+
+          </ol>
+        </section>
+      </main>
+
+    </section>
+    
+    <section id="footer-section">
+    <footer id="footer">Laxman Krishnamurti &#169; 2023-2024</footer>
+    </section>
+    
+  </div>
+</body>
+
+</html>
