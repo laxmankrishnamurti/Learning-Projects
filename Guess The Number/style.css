@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(100, 95, 95);
+}
+
+#container {
+    width: 40vw;
+    height: 80vh;
+    background-color: rgb(100, 95, 95);
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px white;
+}
+
+#main-heading {
+    text-align: center;
+    /* margin: 1rem 0; */
+}
+
+.game-description {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.game-description p {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0 ;
+    font-size: 20px;
+}
+
+#form {
+    width: 100%;
+    height: 35%;
+    border: 1px solid black;
+    margin: 0.5rem 0;
+}
+
+#input-heading {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+input[type = "text"] {
+    width: 60px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    margin-left: 14em;
+    font-size: 16px;
+    text-align: center;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+input[type = "submit"] {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 16px;
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+}
+
+input[type = "submit"]:hover{
+    background-color: black;
+    color: cyan;
+    transition: all 250ms ease-in;
+}
+
+#display {
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result-box {
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+#previous {
+    font-size: 20px;    
+}
+
+#remain {
+    font-size: 20px;
+    margin:  1rem 0;
+}
+
+#newGame {
+    cursor: pointer;
+}
+
+#newGame:hover {
+    color: white;
+}

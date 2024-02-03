@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Form</title>
+  <link rel="stylesheet" href="form.css">
+  <link rel="icon" href="./Images/favicon.png" type="Images/x-icon">
+</head>
+<body>
+  <div class="student-Registration">
+    <form action="#" id="sign-up">
+
+      <h1 id="main-heading">Student Registration Form</h1>
+      
+      <div class="hero-image">
+        <img src="./Images/background.png" alt="hero-image">
+      </div>
+
+      <div id="input-box">
+
+        <div class="user-inputs">
+          <label for="userName">Name : </label>
+          <input type="text" placeholder="Enter full name" id="userName">
+        </div>
+
+        <div class="user-inputs">
+          <label for="fatname">Father's Name : </label>
+          <input type="text" id="fatname">
+        </div>
+
+        <div class="user-inputs">
+          <label for="motname">Mother's Name : </label>
+          <input type="text" id="motname">
+        </div>
+
+        <div class="user-inputs">
+          <label for="phone">Phone Number : </label>
+          <input type="tel" id="phone" placeholder="+91 ">
+        </div>
+
+        <div class="user-inputs">
+          <label for="email">Email : </label>
+          <input type="email" placeholder="sample@example.com" id="email">
+        </div>
+
+        <div class="user-input">
+          Gender :
+          <input type="radio" id="male" name="gender"> 
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender"> 
+          <label for="female">Female</label>
+
+          <input type="radio" id="other" name="gender"> 
+          <label for="other">Other</label>
+        </div>
+
+        <div class="user-inputs">
+          <label for="dob">Date of Birth : </label>
+          <input type="date" id="dob" placeholder="dd-mm-yyyy">
+        </div>
+
+        <div class="user-inputs">
+          <label for="address">Address : </label>
+          <input type="text" placeholder="Street- House- Road-" id="address">
+        </div>
+
+        <div class="user-inputs">
+          Blood Group : 
+          <select name="blood" id="blood-group">
+            <option value="Select">Select</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O">O</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+          </select>
+        </div>
+
+        <div class="user-inputs">
+          Department :
+          <input type="radio" name="department" id="cse">
+          <label for="cse">CSE</label>
+
+          <input type="radio" name="department" id="eee">
+          <label for="eee">EEE</label>
+
+          <input type="radio" name="department" id="bba">
+          <label for="bba">BBA</label>
+        </div>
+
+        <div class="user-inputs">
+          Course :
+          <input type="checkbox" id="c">
+          <label for="c">C</label>
+          
+          <input type="checkbox" id="c++">
+          <label for="c++">C++</label>
+
+          <input type="checkbox" id="java">
+          <label for="java">Java</label>
+
+          <input type="checkbox" id="machine">
+          <label for="machine">Machine learning</label>
+
+          <input type="checkbox" id="robotics">
+          <label for="robotics">Robotics</label>
+        </div>
+
+        <div class="user-inputs">
+          Photo :
+          <label class="custom-file-upload"></label>
+          <input type="file">
+        </div>
+
+      </div>
+
+      <div class="button-box">
+        <button type="submit" id="submit-btn">Submit</button>
+        <button type="reset" id="reset-btn">Reset</button>
+      </div>
+
+    </form>
+  </div>
+</body>
+</html>

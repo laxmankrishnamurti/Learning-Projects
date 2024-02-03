@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+#sign-up{
+  max-width: 45vw;
+  margin: 1rem 0 ;
+  background-color: aqua;
+  box-shadow: 1px 1px 50px white;
+  padding: 1rem;
+}
+
+#main-heading{
+  text-align: center;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border-width: 5px;
+  border-style: double;
+}
+
+.hero-image img{
+  /* margin-top: 1rem; */
+  width: 100%;
+  height: 220px;
+}
+
+.user-inputs{
+  margin-top: 0.8rem; 
+}
+
+.user-inputs input{
+  margin-left: 2rem;
+  outline: none;
+}
+
+.user-inputs input[type="text"]{
+  width: 50%;
+  height: 30px;
+  padding: 0.3rem;
+}
+
+.user-inputs input[type="tel"]{
+  width: 50%;
+  height: 30px;
+  padding: 0.3rem;
+}
+
+.user-inputs input[type="email"]{
+  width: 50%;
+  height: 30px;
+  padding: 0.3rem;
+}
+
+.user-inputs input[type="date"]{
+  width: 50%;
+  height: 30px;
+  padding: 0.3rem;
+}
+
+.user-inputs select{
+  width: 50%;
+  height: 30px;
+  padding: 0.3rem;
+  background-color: salmon;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#userName{
+  margin-left: 6rem;
+}
+
+#fatname{
+  margin-left: 2.3rem;
+}
+
+#motname{
+  margin-left: 1.8rem;
+}
+
+#phone{
+  margin-left: 1.9rem;
+}
+
+#email{
+  margin-left: 6.3rem;
+}
+
+#male{
+  margin-left: 5.4rem;
+  margin-top: 1.5rem;
+}
+
+#dob{
+  margin-left: 3rem;
+}
+
+#address{
+  margin-left: 5rem;
+}
+
+#blood-group{
+  margin-left: 3rem;
+}
+
+#cse{
+  margin-left: 3.4rem;
+}
+
+#c{
+  margin-left: 5.7rem;
+}
+
+.custom-file-upload{
+  margin-left: 4rem;
+}
+
+.button-box{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#submit-btn{
+  width: 45%;
+  height: 40px;
+  background-color: green;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#submit-btn:hover{
+  background-color: white;
+  color: black;
+  transition: background-color 200ms ease-in-out;
+}
+
+#reset-btn{
+  width: 45%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#reset-btn:hover{
+  background-color: white;
+  color: black;
+  transition: background-color 300ms ease-in-out;
+}

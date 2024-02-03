@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: salmon;
+}
+
+#container {
+    min-width: 50vw;
+    min-height: 50vh;
+    margin: auto;
+    background-color: salmon;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 10px white;
+}
+
+#main-heading {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#form {
+    border: 1px solid black;
+    margin: 0 1rem;
+    min-height: 80%;
+}
+
+p {
+    margin: 1rem 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+p label{
+    font-size: 20px;
+}
+
+p input {
+    width: 40%;
+    height: 30px;
+    margin: 0 0.2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 5px 5px;
+    font-size: 16px;
+}
+
+.submit-box {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#calculate-btn {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color: cyan;
+    color: black;
+}
+
+#calculate-btn:hover{
+    background-color: black;
+    color: cyan;
+    border: 1px solid black;
+    transition: 250ms all ease;
+}
+
+#weight-guide {
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+#bmi-heading {
+    text-align: center;
+}
