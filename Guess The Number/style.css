@@ -39,6 +39,10 @@ body {
     font-size: 20px;
 }
 
+.game-description p {
+    color: white;
+}
+
 #form {
     width: 100%;
     height: 35%;
