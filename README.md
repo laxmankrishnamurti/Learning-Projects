@@ -1,1 +1,1 @@
-# This is only for learning Purpose.
+# This was just only for learning Purpose.
